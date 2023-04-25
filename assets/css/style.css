@@ -1,0 +1,522 @@
+/* reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CLEAR */
+.clear {
+    clear: both;
+}
+
+html {}
+
+
+.main {}
+
+/* HEADER */
+.header {
+    background-color: #000;
+    height: 50.8px;
+}
+
+.header__container {
+    line-height: 50.8px;
+    margin: auto;
+    width: 80%;
+}
+
+.header__text {
+    display: inline;
+}
+
+.header__text a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+.header__text a:hover,
+.header__icon a:hover {
+    color: #eb592d;
+}
+
+.header__text span {
+    color: #fff;
+}
+
+.header__icon {
+    float: right;
+}
+
+.header__icon a {
+    color: #fff;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.header__nav {
+    height: 100.8px;
+    width: 80%;
+    margin: auto;
+    padding: 30px 0;
+}
+
+.header__nav img {}
+
+
+.header__nav ul {
+    float: right;
+    line-height: 40.8px;
+}
+
+.header__nav li {
+    list-style: none;
+    display: inline;
+}
+
+.header__nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.header__nav a:hover {
+    color: #eb592d;
+}
+
+/* CAROUSEL */
+.carousel {
+    height: 600px;
+    background-image: url(../img/banner.png);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+
+}
+
+.carousel__container {
+    width: 80%;
+    margin: auto;
+}
+
+.carousel__left {
+    float: left;
+    width: 30%;
+    color: #fff;
+    margin-top: 114px;
+}
+
+.carousel__left h1 {
+    font-size: 78px;
+    font-weight: normal;
+}
+
+.carousel__left span {
+    font-weight: 800;
+}
+
+.carousel__left p {
+    margin: 12px 0 50px;
+    line-height: 32px;
+}
+
+.carousel__left button {
+    background-color: #fff;
+    padding: 17px 50px;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    color: #ff3500;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.carousel__left button:hover {
+    background-color: #ff3500;
+    color: #fff;
+}
+
+.carousel__right {
+    width: 70%;
+    float: left;
+}
+
+.carousel__right img {
+    margin-top: 40px;
+    width: 798px;
+    height: 627px;
+}
+
+/* SERVICES */
+.services {
+    height: 1000px;
+    width: 75%;
+    margin: auto;
+}
+
+.servies__heading {
+    text-align: center;
+    padding: 241px 0 106px;
+}
+
+.servies__heading h1 {
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: normal;
+}
+
+.servies__heading p {
+    color: #909092;
+    line-height: 30px;
+}
+
+.services__item {
+    float: left;
+    width: calc(100%/3);
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.services__bg {
+    text-align: center;
+    padding: 70px 25px 65px 25px;
+    border: 1px solid #ffc5c2;
+    border-radius: 10px;
+}
+
+.services__img {
+    background-image: url(../img/service_icon_bg_1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 140px;
+    margin: 0 74px;
+    padding: 35px 0;
+}
+
+.services__bg h3 {
+    text-align: center;
+    font-size: 25px;
+    margin: 43px 0 22px;
+}
+
+.services__bg p {
+    text-align: center;
+    font-size: 18px;
+    color: #909092;
+    line-height: 30px;
+
+}
+
+/* ABOUT */
+.about {
+    height: 600px;
+    margin-bottom: 50px;
+}
+
+.about__container {
+    width: 80%;
+    margin: auto;
+}
+
+.about__left {
+    float: left;
+    width: 40%;
+}
+
+.about__left img {
+    width: 100%;
+}
+
+.about__right {
+    float: right;
+    width: 60%;
+    padding: 100px 70px 130px 150px;
+}
+
+.about__right h2 {
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.about__right span {
+    font-weight: bold;
+}
+
+.about__right p {
+    margin: 30px 0 54px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #66666f;
+}
+
+.about__right button {
+    background-color: #ff3500;
+    padding: 17px 50px;
+    border: 1px solid #ff3500;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.about__right button:hover {
+    background-color: #fff;
+    color: #ff3500;
+}
+
+/* CONTENT */
+.content {
+    margin-bottom: 50px;
+}
+
+.content__container {
+    width: 80%;
+    margin: auto;
+}
+
+.content__left {
+    width: 50%;
+    float: left;
+    padding: 100px 30px;
+}
+
+.content__left h2 {
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.content__left span {
+    font-weight: bold;
+}
+
+.content__left p {
+    margin: 30px 0 54px;
+    line-height: 28px;
+    color: #66666f;
+}
+
+.content__left button {
+    background-color: #ff3500;
+    padding: 17px 50px;
+    border: 1px solid #ff3500;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.content__left button:hover {
+    background-color: #fff;
+    color: #ff3500;
+}
+
+.content__right {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.content__box1 {
+    padding: 150px 15px;
+    float: left;
+    width: 50%;
+}
+
+.content__box2 {
+    padding: 0 15px;
+    float: left;
+    width: 50%;
+}
+
+.content__box2 .content__item {
+    margin-bottom: 40px;
+}
+
+.content__item {
+    padding: 40px 40px 33px 40px;
+    border: 1px solid rgb(0, 0, 2, 0.08);
+    border-radius: 14px;
+}
+
+.content__item h3 {
+    font-size: 60px;
+}
+
+.content__item p {
+    font-size: 20px;
+    color: gray;
+    padding: 22px 0 2px;
+}
+
+/* MEMBERSHIP */
+.membership {
+    padding-bottom: 200px;
+    padding-top: 125px;
+}
+
+.memebership__heading {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 90px;
+    text-align: center;
+}
+
+.memebership__heading h2 {
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.memebership__heading p {
+    line-height: 30px;
+    color: #909092;
+    font-weight: 400;
+}
+
+.membership__container {
+    width: 80%;
+    margin: auto;
+}
+
+.membership__item {
+    float: left;
+    width: calc(100%/3);
+    padding: 0 15px;
+    position: relative;
+}
+
+.membership__img {
+    width: 100%;
+}
+
+.membership__name {
+    width: 50%;
+    margin: auto;
+    padding: 16px 40px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 2, 0.08);
+    border-radius: 5px;
+    position: absolute;
+    left: 85px;
+    /* top: 275px; */
+    bottom: -20px;
+    text-align: center;
+}
+
+.membership__name h3 {
+    font-size: 18px;
+}
+
+.membership__name p {
+    font-size: 14px;
+    color: #7a7b7c;
+    font-weight: 400;
+}
+
+/* CONTACT */
+.contact {
+    background-image: url(../img/contact_bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    padding-top: 170px;
+    padding-bottom: 160px;
+    text-align: center;
+}
+
+.contact__container {
+    width: 50%;
+    margin: auto;
+}
+
+.contact__container h2 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    color: white;
+}
+
+.contact__container p {
+    font-size: 25px;
+    color: #fff;
+    line-height: 40px;
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+
+.contact__info {
+    font-size: 18px;
+    color: white;
+}
+
+.contact__info button {
+    padding: 17px 50px;
+    background-color: #fff;
+    color: #ff3500;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.contact__info button :hover {
+    color: #fff;
+    background-color: #ff3500;
+}
+
+.contact__info span {
+    margin: 0 10px;
+}
+
+.contact__info a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #fff;
+    margin-left: 10px;
+}
+
+/* FOOTER */
+.footer {
+    height: 500px;
+}
+
+.footer__container {
+    width: 80%;
+    margin: auto;
+    padding-top: 130px;
+    padding-bottom: 110px;
+}
+
+.footer__item {
+    float: left;
+    width: calc(100%/4);
+    line-height: 40px;
+}
+
+.footer__item li {
+    list-style: none;
+}
+
+.footer__item h2 {
+    font-size: 25px;
+    font-weight: 500;
+    color: #2e2e2e;
+    text-transform: capitalize;
+    margin-bottom: 36px;
+}
+
+.footer__item li a {
+    color: #7a7a7a;
+    text-decoration: none;
+}
+
+
+.footer__icon {
+    margin-top: 26px;
+}
+
+.footer__icon {
+    margin-right: 20px;
+}
